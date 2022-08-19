@@ -1,7 +1,6 @@
 import requests
 def search_api(url,client_id,client_secret,params):
-    headers = 
-    {
+    headers = {
         "X-Naver-Client-Id" : client_id,
         "X-Naver-Client-Secret" : client_secret
     }
